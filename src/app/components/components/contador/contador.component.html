@@ -1,0 +1,11 @@
+<h1>CONTADOR: {{contador}}</h1>
+
+<!--BOTONES OPERACIONES-->
+<div>
+    <button class="buttonContador" (click)="sumarUno()">+1</button>
+    <button class="buttonContador" (click)="restarUno()">-1</button>
+</div>
+
+<div>
+    <h1 id="enhorabuena" *ngIf="contador > 10">¡¡ENHORABUENA YA TIENES 10!!</h1>
+</div>

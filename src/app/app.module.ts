@@ -3,10 +3,17 @@ import { BrowserModule } from '@angular/platform-browser';
 
 import { AppRoutingModule } from './app-routing.module';
 import { AppComponent } from './app.component';
+import { NocheDiaComponent } from './components/noche-dia/noche-dia.component';
+import { ContadorComponent } from './components/components/contador/contador.component';
+import { DadoComponent } from './components/dado/dado/dado.component';
 
 @NgModule({
   declarations: [
-    AppComponent
+    AppComponent,
+    NocheDiaComponent,
+    ContadorComponent,
+    DadoComponent,
+
   ],
   imports: [
     BrowserModule,

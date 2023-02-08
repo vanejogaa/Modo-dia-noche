@@ -1,0 +1,22 @@
+#noche {
+    background-color: black;
+    color: blueviolet;
+    text-align: center;
+}
+
+#dia {
+    background-color: violet;
+    color: whitesmoke;
+    text-align: center;
+}
+
+.button {
+    text-align: center;
+    color: black;
+    width: 20%;
+    height: 60px;
+}
+
+body {
+    background-color: blue($color: #54e5d9);
+}
